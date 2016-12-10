@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif; }
+
+body {
+  background-color: #498afa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+
+#clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  background: #3657ad;
+  border: 8px solid white; }
+
+#minute-hand {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 80px;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: 17px;
+  transform-origin: 50% 95%;
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44); }
+
+#hour-hand {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 50px;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: 47px;
+  transform-origin: 50% 95%;
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44); }
+
+#second-hand {
+  position: absolute;
+  background-color: #498afa;
+  width: 4px;
+  height: 80px;
+  left: 50%;
+  margin-left: -2px;
+  margin-top: 17px;
+  transform-origin: 50% 95%;
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44); }
+
+#middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: black;
+  width: 2px;
+  height: 2px;
+  margin-top: -1px;
+  margin-left: -1px;
+  border-radius: 100%; }
+
+/*# sourceMappingURL=style.css.map */
