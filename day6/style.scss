@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family:'helvetica neue', sans-serif;
+}
+
+#search input {
+  border: #F7F7F7 10px solid;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#search ul {
+  display: block;
+  list-style-type: none;
+}
+
+#search li {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
